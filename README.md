@@ -1,7 +1,15 @@
 # Website-Layouts
 Layouts For Different Pages In Websites - To Make For An Easier More Efficient Work Flow
+
 💡Quick guide on Folders & Files want to find easily maybe they have good design etc..
 Github Repo: https://github.com/GeoffStengel/Website-Layouts.git
+
+🛎️Helpful Links For Setting Up Domain & Adding Images & Files👇
+    📷 Github How To Upload Images Vid .58 Seconds Long: https://www.youtube.com/watch?v=ATVm6ACERu8 
+    💻 DNS Point Godaddy Domain to Github Pages Tutorial: https://www.youtube.com/watch?v=dbgEWWBvIxY
+🛎️
+    👬🏽 Domain Important - at Section 5 You'll Need These Numbers in Godaddy Manage DNS: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
+🛎️
 
 📚Folder Directory Below👇
 
