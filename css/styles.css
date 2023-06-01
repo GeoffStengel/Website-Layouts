@@ -1,0 +1,270 @@
+/******CSS Styling For Main Page Website Home Page******/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+/**    padding: 0;
+    justify-items: center;
+    align-items: center;**/
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: plum;
+/**    margin: 0 auto;
+    justify-items: center;
+    align-items: center;**/
+    
+}
+
+
+/****Main Grid Holds All The Content For Page****/
+.container{
+    display: grid;
+    max-width: 1200px;
+    max-height: 100%;
+    grid-template-columns: repeat(1, minmax(50px, auto));
+    /**grid-template-rows: repeat(4, minmax(50px, auto));**/
+    grid-template-rows: 80px auto 30px;
+    background-color: rgb(29, 131, 215);
+    grid-gap: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+header{
+    max-width:100%;
+    max-height:100%;
+    /**background-color: aqua;**/
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.nav{
+    display: grid;
+    height: 30px;
+    grid-template-columns: repeat(2, minmax(40px, auto));
+    text-decoration: none;
+    text-align: center;
+}
+.nav a{
+    font-size: 20px;
+    color: #ddd;
+    text-decoration: none;
+    text-align: center;
+    text-justify: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px #7dabd2;
+}
+
+h1{
+    font-size: 32px;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #7dabd2;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/****Grid Holding All Section Cards*********/
+.content_grid{
+    display: grid;
+    max-width: 1100px;
+    /**max-width: 100%;**/
+	max-height: 100%;
+	/**grid-template-columns: repeat(auto-fit, minmax(150px, 280px));**/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+    grid-auto-rows: 1fr;
+    gap: 2rem;
+    column-gap: 25px;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+    background-color: #ddd;
+    box-shadow: 0 0 10px black;
+	text-shadow: 1px 1px 2px #7dabd2;   
+    padding: 10px; 
+}
+
+.box{
+	max-width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 234);
+    margin: 0px auto;
+    border: solid;
+    border-color: #ddd;
+    border-width: 3px;
+    position: relative;
+    /**overflow: hidden;**/
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	padding: 5px;
+    border-radius: 6px 6px 1px 1px;
+    /**background-size: 100% 50px;**/
+}
+
+/***Wraps around Items & Box images in Content Grid**/
+.item-wrap{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto, minmax(200px, 350px));
+    grid-template-rows: repeat(auto, minmax(80px, 150px));
+   /*** background-color: darkolivegreen; ****/
+    background-color: #ddd;
+    /**justify-items: center;**/
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(169, 169, 169);
+    border-radius: 6px 6px 1px 1px;
+}
+ 
+/***Title For The Items in item-wrap Grid****/
+.item-title{
+    width: 100%;
+    max-height: 100%;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+/***Menu Under Images With Name, Link, Download Button*****/
+.item-menu{
+    display: grid;
+    max-width: 265px;
+    height: 100%;
+    font-size: 12px;
+    color: black;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 58px));
+    grid-template-rows: 20px 20px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    text-justify: center;
+    grid-gap:3px;
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgb(143, 142, 142);
+    border-radius: 1px 1px 6px 6px;  
+    margin-bottom: 30px;  
+   /**border: solid;
+    border-color: #ddd;
+    border-width: 3px;**/
+}
+
+
+/*****Button Styling STARTS*************/
+.button a{
+    text-align: center;
+    text-justify: center;
+    margin: 0 auto;
+}
+
+.button{
+    width: 100%;
+    margin: 0 auto;
+    /**background: teal;**/
+    color: #ffffff;
+    /**font-weight: bold;**/
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn-html, .btn-css, .btn-JS, .btn-taco{
+    grid-row: 2;
+}
+
+/***Style Buttons That Say HTML in item-menu Grid***/
+.btn-html{
+    width: 35px;
+    background: teal;
+}
+
+/***Style Buttons That Say CSS in item-menu Grid***/
+.btn-css{
+    width: 35px;
+    background: black;
+}
+.btn-JS{
+    background: rgb(187, 8, 97);
+}
+.btn-taco{
+    width: 35px;
+}
+/*****Button Styling END*************/
+
+/**Footer Section At Bottom Of Page***/
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #b8b7b7;
+    color: #ddd;
+    text-align: center;
+    margin:0 auto;
+    text-decoration: none;
+}
+.footer p, .footer a{
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-justify: center;
+    font-family:'Courier New', Courier, monospace ;
+    text-shadow: 1px 1px 2px #7dabd2;  
+    color: brown;
+    padding:3px;
+    background: pink;
+    
+}
+
+
+/**640x360******/
+/***AboutPage Layouts Images Section START***/
+.about1{background-image: url(../images/about_01_thum.png);}
+.about2{background-image: url(../images/about_02_thum.png);}
+.about3{background-image: url(../images/about_03_thum.png);}
+.about4{background-image: url(../images/about_04_thum.png);}
+.about5{background-image: url(../images/about_05_thum.png);}
+.about6{background-image: url(../images/about_06_thum.png);}
+.about7{background-image: url(../images/about_07_thum.png);}
+/***AboutPage Layouts Images Section END***/
+
+/***LandingPage Layouts Images Section START***/
+.landing_01{background-image: url(../images/landing_01_thum.png);}
+.landing_02{background-image: url(../images/landing_02_thum.png);}
+.landing_03{background-image: url(../images/landing_03_thum.png);}
+.landing_04{background-image: url(../images/landing_04_thum.png);}
+.landing_05{background-image: url(../images/landing_05_thum.png);}
+.landing_06{background-image: url(../images/landing_06_thum.png);}
+/***LandingPage Layouts Images Section END***/
+
+/***Onepage Layouts Images Section START***/
+.onepage_01{background-image: url(../images/onepage_01_thum.png);}
+.onepage_02{background-image: url(../images/onepage_02_thum.png);}
+.onepage_03{background-image: url(../images/onepage_03_thum.png);}
+.onepage_04{background-image: url(../images/onepage_04_thum.png);}
+.onepage_05{background-image: url(../images/onepage_05_thum.png);}
+.onepage_06{background-image: url(../images/onepage_06_thum.png);}
+.onepage_07{background-image: url(../images/onepage_07_thum.png);}
+.onepage_08{background-image: url(../images/onepage_08_thum.png);}
+.onepage_09{background-image: url(../images/onepage_09_thum.png);}
+.onepage_10{background-image: url(../images/onepage_10_thum.png);}
+.onepage_11{background-image: url(../images/onepage_11_thum.png);}
+.onepage_12{background-image: url(../images/onepage_12_thum.png);}
+/***Onepage Layouts Images Section END***/
+
+/***Background Images For Website pages Section START***/
+.bkgd_01{background-image: url(../images/page_bkgd_01_thum.png);}
+/***Background Images For Website pages Section END***/
