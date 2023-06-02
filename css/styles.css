@@ -292,9 +292,7 @@ h1{
 /***Onepage Layouts Images Section END***/
 
 /***Gallery Layouts Images SectionSTART***/ 
-.gallery_01{background-image: url(../images/gallery_01_thum.png);}
-.gallery_02{background-image: url(../images/gallery_02_thum.png);}
-.gallery_03{background-image: url(../images/gallery_03_thum.png);}
+/**.gallery_01{background-image: url(../images/gallery_01_thum.png);}**/
 .gallery_04{background-image: url(../images/gallery_04_thum.png);}
 .gallery_05{background-image: url(../images/gallery_05_thum.png);}
 .gallery_06{background-image: url(../images/gallery_06_thum.png);}
@@ -304,6 +302,13 @@ h1{
 .gallery_10{background-image: url(../images/gallery_10_thum.png);}
 .gallery_11{background-image: url(../images/gallery_11_thum.png);}
 .gallery_12{background-image: url(../images/gallery_12_thum.png);}
+.gallery_13{background-image: url(../images/gallery_13_thum.png);}
+.gallery_14{background-image: url(../images/gallery_14_thum.png);}
+.gallery_15{background-image: url(../images/gallery_15_thum.png);}
+.gallery_16{background-image: url(../images/gallery_16_thum.png);}
+.gallery_17{background-image: url(../images/gallery_17_thum.png);}
+.gallery_02{background-image: url(../images/gallery_02_thum.png);}
+.gallery_03{background-image: url(../images/gallery_03_thum.png);}
 /***Gallery Layouts Images Section END***/
 
 /***Background Images For Website pages Section START***/
